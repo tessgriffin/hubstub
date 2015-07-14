@@ -10,6 +10,8 @@ gem 'therubyracer'
 gem 'less-rails'
 gem 'twitter-bootstrap-rails'
 gem 'bootstrap_form', '~> 2.2.0'
+gem 'will_paginate'
+gem 'will_paginate-bootstrap'
 gem 'jquery-rails'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
@@ -21,6 +23,8 @@ gem 'google_timezone'
 gem 'geokit'
 gem 'populator'
 gem 'newrelic_rpm'
+gem 'poltergeist'
+# gem 'selenium-webdriver'
 
 group :development, :test do
   gem 'byebug', '~> 3.5.0'
