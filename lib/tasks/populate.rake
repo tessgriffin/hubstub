@@ -15,12 +15,13 @@ task :populate => :environment do
     event.venue_id = @venues.sample.id
     event.category_id = @categories.sample.id
   end
-  
+  puts "Events populated"
   @events = Event.all
   
   User.populate(200_000) do |user|
     user.full_name = "Name_#{user.id}"
     user.email = "user_#{user.id}@example.com"
+    user.slug = user.full_name.gsub(" ", "-")
     user.password_digest = "password"
     user.street_1 = "Address1_#{user.id}"
     user.street_2 = "Address2_#{user.id}"
@@ -42,4 +43,5 @@ task :populate => :environment do
       item.user_id = user.id
     end
   end
+  puts "Populating Finished"
 end 
