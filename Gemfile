@@ -19,7 +19,8 @@ gem 'bcrypt', '~> 3.1.7'
 # gem 'openssl'
 gem 'google_timezone'
 gem 'geokit'
-
+gem 'populator'
+gem 'newrelic_rpm'
 
 group :development, :test do
   gem 'byebug', '~> 3.5.0'

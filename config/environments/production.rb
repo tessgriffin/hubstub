@@ -95,7 +95,7 @@ Rails.application.configure do
     :storage => :fog,
     :fog_credentials => {
       :provider => "Local",
-      :local_root => "#{Rails.root}/public"},
+      :local_root => "#{Rails.root}"},
       :fog_directory => "",
       :fog_host => "localhost"
     }

@@ -22,6 +22,18 @@ class Seed
       { name: "Sports" },
       { name: "Music" },
       { name: "Theater" },
+      { name: "Entertainment" },
+      { name: "Musicals" },
+      { name: "Dancing" },
+      { name: "Movies" },
+      { name: "Comic-Con" },
+      { name: "Rentals" },
+      { name: "Fantasy" },
+      { name: "Magic" },
+      { name: "Tigers" },
+      { name: "Lions" },
+      { name: "Bears" },
+      { name: "Oh my" },
     ])
   end
 
@@ -62,6 +74,24 @@ class Seed
        location: "Chicago, IL"  },
      { name: "Emirates Stadium",
        location: "London, England" },
+     { name: "Soldier Field1",
+       location: "Chicago, IL1"  },
+     { name: "Soldier Field2",
+       location: "Chicago, IL2"  },
+     { name: "Soldier Field3",
+       location: "Chicago, IL3"  },
+     { name: "Soldier Field4",
+       location: "Chicago, IL4"  },
+     { name: "Soldier Field4",
+       location: "Chicago, IL4"  },
+     { name: "Soldier Field5",
+       location: "Chicago, IL5"  },
+     { name: "Soldier Field6",
+       location: "Chicago, IL6"  },
+     { name: "Soldier Field7",
+       location: "Chicago, IL7"  },
+     { name: "Soldier Field8",
+       location: "Chicago, IL8"  },
     ])
   end
 
