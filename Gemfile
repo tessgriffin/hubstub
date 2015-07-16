@@ -25,6 +25,7 @@ gem 'populator'
 gem 'newrelic_rpm'
 gem 'poltergeist'
 # gem 'selenium-webdriver'
+gem "bullet", :group => "development"
 
 group :development, :test do
   gem 'byebug', '~> 3.5.0'
@@ -37,6 +38,7 @@ group :development, :test do
   gem 'factory_girl_rails', '~> 4.5.0'
   gem 'database_cleaner', '~> 1.4.0'
 end
+
 group :production do
   gem 'rails_12factor', '0.0.2'
   gem 'rmagick', '2.13.2'

@@ -4,6 +4,6 @@ class VenuesController < ApplicationController
     @items = Item.active.not_in_cart(session[:cart])
                         .joins(:event).where(events: {venue_id: @venue.id})
                         .paginate(:page => params[:page], :per_page => 10)
-    @events = @venue.events.paginate(:page => params[:page], :per_page => 10)
+    @events = @venue.events.includes(:category).paginate(:page => params[:page], :per_page => 10)
   end
 end
